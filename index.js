@@ -14,7 +14,7 @@ app.get("/", async (req, res) => {
   res.write('<div><h1>Pa11y runned Successfully!</h1> </br> <p>Results:</p></div>')
   if (results && results.length > 0) {
     results.forEach(r => {
-      res.write(helpers.makeTable(r));
+      res.write(helpers.generateTableMarkup(r));
     })
   }
   res.end();

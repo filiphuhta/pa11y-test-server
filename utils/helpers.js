@@ -3,7 +3,7 @@ const pa11y = require('pa11y');
 dotenv.config();
 
 module.exports = {
-  makeTable: function (data) {
+  generateTableMarkup: function (data) {
 
     let tableString = `<p>${data.documentTitle}</p> <table><tr>`
     for (let column in data[0]) {
