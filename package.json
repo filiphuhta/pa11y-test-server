@@ -1,0 +1,29 @@
+{
+  "name": "pa11y-test-server",
+  "version": "1.0.0",
+  "description": "Test URL:s locally with a Pa11y node.js server",
+  "main": "index.js",
+  
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "pa11y-test-server"
+  },
+  "keywords": [
+    "pa11y",
+    "accessibility",
+    "node.js",
+    "JS"
+  ],
+  "author": "Filip Huhta",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "pa11y": "^6.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
