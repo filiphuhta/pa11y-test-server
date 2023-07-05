@@ -23,7 +23,7 @@ PASSWORD=XXXXXXXXX
 6. Visit the address that the server is listening on. (http://localhost:3000)
 
 If everything works as expected you should get results like this:
-![Image of Pa11y test server]([https://github.com/filiphuhta/pa11y-test-server/blob/main/images/example.png])
+![Image of Pa11y test server](https://github.com/filiphuhta/pa11y-test-server/blob/main/images/example.png)
 
 
 ## Author
