@@ -4,7 +4,6 @@ dotenv.config();
 
 module.exports = {
   generateTableMarkup: function (data) {
-
     let tableString = `<p>${data.documentTitle}</p> <table><tr>`
     for (let column in data[0]) {
       tableString += `<th>${column}</th>`
