@@ -31,6 +31,7 @@ module.exports = {
           info: console.log
         },
         standard: 'WCAG2AAA',
+        includeWarnings: true,
         headers: {}
       };
 
