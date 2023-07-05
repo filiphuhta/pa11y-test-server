@@ -26,4 +26,5 @@ If everything works as expected you should get results like this:
 ![Image of Pa11y test server]([http://url/to/img.png](https://github.com/filiphuhta/pa11y-test-server/blob/main/images/example.png))
 
 
-
+## Author
+- Filip Huhta
