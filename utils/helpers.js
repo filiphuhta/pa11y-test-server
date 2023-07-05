@@ -24,7 +24,6 @@ module.exports = {
     try {
       const userLogin = `${process.env.USERNAME}:${process.env.PASSWORD}`;
       const encodedCredentials = new Buffer.from(userLogin).toString('base64');
-      // Put together some options to use in each test
       const options = {
         log: {
           debug: console.log,
